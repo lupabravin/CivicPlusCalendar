@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Your Events</h1>
+    <ul style="text-align: left; list-style-type: none; display:flex; flex-wrap: wrap">
+        @{
+            foreach (var eventModel in Model)
+            {
+                var startDate = DateTime.Parse(eventModel.StartDate);
+                var endDate = DateTime.Parse(eventModel.EndDate);
+
+                <li>
+                    <div style="background-color:gainsboro; border: 1px solid black; border-radius: 5px; padding: 15px; margin: 0 10px 10px 0; min-width: max-content" ;>
+                        <p><b>Title:</b> @eventModel.Title</p>
+                        <p><b>Description:</b>  @eventModel.Description</p>
+                        <p><b>Start Date:</b> @startDate.Month/@startDate.Day/@startDate.Year </p>
+                        <p><b>End Date:</b> @endDate.Month/@endDate.Day/@endDate.Year</p>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+
+</div>

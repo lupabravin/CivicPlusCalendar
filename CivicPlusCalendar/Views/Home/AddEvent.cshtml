@@ -1,0 +1,22 @@
+﻿@model EventViewModel
+@{
+
+    ViewData["Title"] = "Add Event";
+}
+<link rel="stylesheet" href="~/css/addEvent.css" />
+<h1>@ViewData["Title"]</h1>
+<div class="verticalFlex">
+    @using (Html.BeginForm("PostEvent", "Home", FormMethod.Post))
+    {
+        <div>
+            <p style="margin-left: 0">Title:</p> <input class="horizontalInput" name="title" />
+            <p>Start Date:</p> <input type="date" name="startDate"/>
+            <p>End Date:</p> <input type="date" name="endDate" />
+        </div>
+        <div class="verticalFlex">
+            Description: <textarea name="description"></textarea>
+            <input type="submit" value="Submit" id="btnSubmit"/>
+        </div>
+        <p>@ViewBag.Message</p>
+    }
+</div>

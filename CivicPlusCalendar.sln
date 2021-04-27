@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CivicPlusCalendar", "CivicPlusCalendar\CivicPlusCalendar.csproj", "{261E46EB-2F3C-4FA4-AA60-110CCF03DEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicPlusCalendar.Tests", "CivicPlusCalendar.Tests\CivicPlusCalendar.Tests.csproj", "{45BD0C21-5130-4111-84D4-099ECF7CF1BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{261E46EB-2F3C-4FA4-AA60-110CCF03DEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261E46EB-2F3C-4FA4-AA60-110CCF03DEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261E46EB-2F3C-4FA4-AA60-110CCF03DEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261E46EB-2F3C-4FA4-AA60-110CCF03DEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BD0C21-5130-4111-84D4-099ECF7CF1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BD0C21-5130-4111-84D4-099ECF7CF1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BD0C21-5130-4111-84D4-099ECF7CF1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BD0C21-5130-4111-84D4-099ECF7CF1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {758DE2AA-28F6-4AE4-A3BD-4DDF5C0A4264}
+	EndGlobalSection
+EndGlobal

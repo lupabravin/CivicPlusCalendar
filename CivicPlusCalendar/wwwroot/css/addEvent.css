@@ -1,0 +1,29 @@
+﻿div {
+    display: flex;
+    align-items: baseline;
+    min-width: fit-content;
+}
+
+.verticalFlex {
+    flex-direction: column;
+    width: inherit;
+    max-height: 50vh
+}
+
+input {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: max-content
+    
+}
+
+textarea {
+    margin-bottom: 3%;
+    height: 450%;
+    width: 100%;
+}
+
+p {
+    min-width: fit-content;
+    margin: 0 2% 0 1%;
+}
